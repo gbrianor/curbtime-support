@@ -20,12 +20,6 @@ Information you enter in the app (for example, deadlines, time windows, and opti
 
 If you choose to add a photo (for example, of a street sign or meter), that image is kept **on your device** with your reminder. We do not upload your photos to our servers.
 
-### Location
-
-If you use a feature that detects or suggests an address for where you parked, location is handled through **Apple’s system location and geocoding services** on your device to produce a human-readable address. We do not maintain a separate database of your location history.
-
-You can use the app without granting location permission by entering details manually, where that option is available.
-
 ### Notifications
 
 If you allow notifications, the operating system may show alerts based on the reminders you create. Notification scheduling uses Apple’s **UserNotifications** framework. You can change notification permissions anytime in **Settings → CurbTime → Notifications**.
