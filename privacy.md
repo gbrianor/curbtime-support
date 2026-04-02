@@ -42,7 +42,7 @@ We may update this policy from time to time. The “Last updated” date at the 
 
 For privacy-related requests or questions:
 
-**Email:** [Add your support email]
+**Email:** gbrianor@gmail.com
 
 ---
 
