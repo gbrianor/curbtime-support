@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CurbTime — Privacy Policy</title>
+  <meta name="description" content="Privacy policy for the CurbTime iOS app." />
+  <style>
+    :root {
+      --bg: #0b0b0c;
+      --text: #f2f2f4;
+      --muted: #9a9aa3;
+      --accent: #d7ff3c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+    .wrap {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin: 0 0 0.5rem;
+    }
+    .tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--bg);
+      background: var(--accent);
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      margin-bottom: 1.25rem;
+    }
+    .meta { color: var(--muted); font-size: 0.9rem; margin: 0 0 1.5rem; }
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin: 2rem 0 0.75rem;
+      color: var(--text);
+    }
+    h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 1.25rem 0 0.5rem;
+      color: var(--text);
+    }
+    p, li { margin: 0 0 0.75rem; }
+    ul { padding-left: 1.25rem; margin: 0 0 1rem; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .back { margin-bottom: 1.5rem; font-size: 0.9rem; }
+    .muted { color: var(--muted); font-size: 0.9rem; margin-top: 2rem; font-style: italic; }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="back"><a href="./index.html">← Support</a></p>
+    <span class="tag">Privacy</span>
+    <h1>CurbTime Privacy Policy</h1>
+    <p class="meta"><strong>Last updated:</strong> April 2, 2026</p>
+
+    <p>CurbTime (“the app”) is built by an independent developer. This policy describes how information is handled when you use the app. If you have questions, contact us at the email listed at the end.</p>
+
+    <h2>Summary</h2>
+    <ul>
+      <li>CurbTime does <strong>not</strong> require an account.</li>
+      <li>Your parking reminders and optional photos are stored <strong>on your device</strong>, not on our servers (we do not operate a backend that stores your reminder data).</li>
+      <li>We do <strong>not</strong> sell your personal information.</li>
+    </ul>
+
+    <h2>Information the app uses</h2>
+
+    <h3>Reminders and settings</h3>
+    <p>Information you enter in the app (for example, deadlines, time windows, and optional notes tied to a reminder) is saved <strong>locally on your device</strong> using standard iOS storage. It is used only to provide the app’s features (countdowns, notifications, and Live Activities where supported).</p>
+
+    <h3>Photos</h3>
+    <p>If you choose to add a photo (for example, of a street sign or meter), that image is kept <strong>on your device</strong> with your reminder. We do not upload your photos to our servers.</p>
+
+    <h3>Notifications</h3>
+    <p>If you allow notifications, the operating system may show alerts based on the reminders you create. Notification scheduling uses Apple’s <strong>UserNotifications</strong> framework. You can change notification permissions anytime in <strong>Settings → CurbTime → Notifications</strong>.</p>
+
+    <h3>Live Activities</h3>
+    <p>If you enable Live Activities for CurbTime, countdown or status information may appear on your Lock Screen or Dynamic Island according to <strong>Apple’s Live Activity</strong> rules and your device settings. You can manage this in <strong>Settings → CurbTime → Live Activities</strong>.</p>
+
+    <h2>Data sharing</h2>
+    <p>We do <strong>not</strong> sell, rent, or trade your personal information. The app is not designed to share your reminder content with other users.</p>
+    <p>Apple may process certain data according to your device settings and <a href="https://www.apple.com/legal/privacy/">Apple’s privacy policies</a>.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>We may update this policy from time to time. The “Last updated” date at the top will change when we do. Continued use of the app after changes means you accept the updated policy.</p>
+
+    <h2>Contact</h2>
+    <p>For privacy-related requests or questions:</p>
+    <p><strong>Email:</strong> <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></p>
+
+    <p class="muted">This policy is provided for transparency. It is not legal advice.</p>
+
+    <footer>
+      © <span id="y"></span> CurbTime.
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
