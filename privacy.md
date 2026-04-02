@@ -34,10 +34,6 @@ We do **not** sell, rent, or trade your personal information. The app is not des
 
 Apple may process certain data according to your device settings and [Apple’s privacy policies](https://www.apple.com/legal/privacy/).
 
-## Children’s privacy
-
-CurbTime is not directed at children under 13, and we do not knowingly collect personal information from children. If you believe a child has provided information through the app, contact us and we will help you remove it from the device.
-
 ## Changes to this policy
 
 We may update this policy from time to time. The “Last updated” date at the top will change when we do. Continued use of the app after changes means you accept the updated policy.
