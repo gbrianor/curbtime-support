@@ -2,7 +2,7 @@
 
 **Last updated:** April 2, 2026
 
-CurbTime (“the app”) is built by an independent developer. This policy describes how information is handled when you use the app. If you have questions, contact us at the email listed at the end.
+CurbTime is built by an independent developer. This policy describes how information is handled when you use the app. If you have questions, contact us at the email listed at the end.
 
 ## Summary
 
