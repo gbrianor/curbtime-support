@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CurbTime — Support</title>
+  <meta name="description" content="Help and support for the CurbTime parking reminder app." />
+  <style>
+    :root {
+      --bg: #0b0b0c;
+      --text: #f2f2f4;
+      --muted: #9a9aa3;
+      --accent: #d7ff3c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+    .wrap {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin: 0 0 0.5rem;
+    }
+    .tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--bg);
+      background: var(--accent);
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      margin-bottom: 1.25rem;
+    }
+    .lead {
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin: 0 0 2rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 2rem 0 0.75rem;
+      color: var(--text);
+    }
+    p, li { margin: 0 0 0.75rem; }
+    ul { padding-left: 1.25rem; margin: 0 0 1rem; }
+    li { margin-bottom: 0.5rem; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 12px;
+      padding: 1.25rem 1.35rem;
+      margin-top: 1.5rem;
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <span class="tag">Support</span>
+    <h1>CurbTime</h1>
+    <p class="lead">
+      CurbTime helps you remember parking rules: time limits and no-parking windows, with optional reminders and a lock-screen Live Activity when supported.
+    </p>
+
+    <h2>Get help</h2>
+    <p>
+      For questions, bugs, or feedback, email us at
+      <!-- TODO: Replace with your real support email before App Store submission -->
+      <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a>.
+    </p>
+
+    <h2>Common topics</h2>
+    <ul>
+      <li><strong>Notifications</strong> — Allow notifications for CurbTime in iOS Settings so you get reminders before your deadline.</li>
+      <li><strong>Live Activities</strong> — If the countdown doesn’t appear on the Lock Screen, open Settings → CurbTime → Live Activities and ensure they’re enabled. Live Activities may not show in all situations or for very long deadlines.</li>
+      <li><strong>Location</strong> — Location is used only to suggest a street-style address when you choose to detect where you parked. You can always enter details manually.</li>
+      <li><strong>Photos</strong> — Optional photos of signs or meters stay on your device with your reminder.</li>
+    </ul>
+
+    <div class="card">
+      <h2 style="margin-top:0">Privacy</h2>
+      <p style="margin-bottom:0">
+        CurbTime is built for your personal reminders. If you publish a separate privacy policy page, add a link here for App Review and users.
+        <!-- Example: <a href="https://gbrianor.github.io/curbtime-support/privacy.html">Privacy Policy</a> -->
+      </p>
+    </div>
+
+    <footer>
+      © <span id="y"></span> CurbTime. Apple and the App Store are trademarks of Apple Inc.
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
